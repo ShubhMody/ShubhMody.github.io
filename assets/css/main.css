@@ -1737,3 +1737,13 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		.university-info {
+			display: flex;
+			align-items: start;
+			margin-bottom: 30px; /* Adjust the value as needed */
+		}
+		#education .university-info > div h3,
+		#education .university-info > div p {
+			margin-bottom: 5px; /* Adjust this value as needed */
+		}
